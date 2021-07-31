@@ -2,6 +2,7 @@ import React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
 
 import MainScreen from '../../screens/Customize/MainScreen';
+import colors from "../../config/colors";
 
 const Stack = createStackNavigator();
 
@@ -10,8 +11,8 @@ const CustomizeNavigator = () => (
     mode="modal"
     initialRouteName="Main"
     screenOptions={{
-      headerStyle: { backgroundColor: "dodgerblue" },
-      headerTintColor: "white",
+      headerStyle: { backgroundColor: colors.primary },
+      headerTintColor: colors.white,
     }}
   >
     <Stack.Screen 
