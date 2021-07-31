@@ -1,9 +1,7 @@
 export default {
-  primary: "dodgerblue",
-  secondary: "#4ecdc4",
-  borderPrimary: "#fc5c85",
-  borderSecondary: "#4ecde4",
-  black: "#000",
+  primary: "#17701f",
+  secondary: "#1f4122",
+  tertiary: "#0b360e",
   white: "#fff",
   light: "#f8f4f4",
   medium: "#6e6969",
